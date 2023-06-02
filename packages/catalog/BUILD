@@ -3,7 +3,7 @@ load("//tools/pytest:defs.bzl", "pytest_test")
 
 py_library(
     name = "catalog",
-    srcs = glob(["catalog/**/*.py"]),
+    srcs = glob(["src/**/*.py"]),
     imports = ["src"],
     visibility = ["//visibility:public"],
     deps = [],
