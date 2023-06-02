@@ -1,0 +1,2 @@
+test --spawn_strategy=standalone
+test --test_output=streamed
